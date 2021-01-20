@@ -178,7 +178,6 @@ nav {
         align-items: center;
         flex-direction: column;
         background: rgb(3, 0, 50);
-        background: linear-gradient(to top, rgba(3,0,50,1) 0%, rgba(133,93,28,1) 45%, rgba(0,212,255,1) 100%);
         transform: translateX(100%);
         display: none;
     }
@@ -186,7 +185,7 @@ nav {
         color: #fff;
     }
     .nav-links li a:hover {
-        border-bottom: 2px solid #000;
+        border-bottom: 2px solid #000000;
     }
     .nav-links.open {
         transform: translateX(0%);
@@ -232,23 +231,17 @@ nav {
     }
 }
 
-@media screen and (max-width: 320px) {
-    .big-text h1 {
-        font-size: 3rem;
-    }
-    .background-image {
-        background-position: right;
-    }
-    .hide {
-        font-size: 2.5rem;
-    }
-}
-
 @media screen and (max-width: 414px) {
     .big-text h1 {
         font-size: 4rem;
     }
     .hide {
         font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .big-text h1 {
+        font-size: 3rem;
     }
 }
