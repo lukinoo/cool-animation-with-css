@@ -219,14 +219,26 @@ nav {
     transform: rotate(45deg) translate(-6px, -5px);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
     .big-text h1 {
         font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .big-text h1 {
+        font-size: 4rem;
     }
     .for-hide-text {
         min-width: 90%;
     }
     .hide {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .big-text h1 {
         font-size: 3rem;
     }
 }
