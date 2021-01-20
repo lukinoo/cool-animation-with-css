@@ -178,7 +178,7 @@ nav {
         align-items: center;
         flex-direction: column;
         background: rgb(3, 0, 50);
-        background: linear-gradient(to top, rgba(3,0,50,0.7) 0%, rgba(133,93,28,0.7) 45%, rgba(0,212,255,1) 100%);
+        background: linear-gradient(to top, rgba(3,0,50,1) 0%, rgba(133,93,28,1) 45%, rgba(0,212,255,1) 100%);
         transform: translateX(100%);
         display: none;
     }
