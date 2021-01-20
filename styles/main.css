@@ -27,7 +27,7 @@ nav {
 #logo {
     font-size: 2rem;
     font-family: 'Lobster', cursive;
-    color: rgb(12, 0, 0);
+    color: rgb(240, 240, 240);
     font-weight: lighter;
 }
 
@@ -47,7 +47,7 @@ nav {
 }
 
 .background-image {
-    background: url('../image/background-image.jpg');
+    background: url('../image/background-image2.jpg');
     min-height: 100vh;
     background-size: cover;
     position: relative;
@@ -63,8 +63,8 @@ nav {
 }
 
 .big-text h1 {
-    color: rgb(207, 207, 207);
-    font-size: 8rem;
+    color: rgb(0, 0, 0);
+    font-size: 9rem;
 }
 
 .first-fade-text {
@@ -177,7 +177,8 @@ nav {
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
-        background-color: rgb(45, 62, 77);
+        background: rgb(3, 0, 50);
+        background: linear-gradient(to top, rgba(3,0,50,0.7) 0%, rgba(133,93,28,0.7) 45%, rgba(0,212,255,1) 100%);
         transform: translateX(100%);
         display: none;
     }
@@ -192,7 +193,7 @@ nav {
         display: flex;
     }
     .big-text h1 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .hamburger {
         display: block;
@@ -245,7 +246,7 @@ nav {
 
 @media screen and (max-width: 414px) {
     .big-text h1 {
-        font-size: 5.5rem;
+        font-size: 4rem;
     }
     .hide {
         font-size: 2.5rem;
