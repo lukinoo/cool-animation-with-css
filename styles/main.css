@@ -192,7 +192,7 @@ nav {
         display: flex;
     }
     .big-text h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .hamburger {
         display: block;
@@ -200,7 +200,7 @@ nav {
         z-index: 2;
     }
     .for-hide-text {
-        min-width: 60%;
+        min-width: 90%;
     }
     .hide {
         font-size: 3rem;
@@ -217,24 +217,6 @@ nav {
 
 .hamburger-line .line3 {
     transform: rotate(45deg) translate(-6px, -5px);
-}
-
-@media screen and (max-width: 414px) {
-    .big-text h1 {
-        font-size: 3rem;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .big-text h1 {
-        font-size: 4rem;
-    }
-    .for-hide-text {
-        min-width: 90%;
-    }
-    .hide {
-        font-size: 3rem;
-    }
 }
 
 @media screen and (max-width: 320px) {
