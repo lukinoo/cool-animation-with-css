@@ -192,7 +192,7 @@ nav {
         display: flex;
     }
     .big-text h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .hamburger {
         display: block;
@@ -221,6 +221,6 @@ nav {
 
 @media screen and (max-width: 320px) {
     .big-text h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
